@@ -1,0 +1,42 @@
+
+
+body{
+    
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+p,
+ul,
+h3,
+.ingredientes,
+.preparo,
+.imagem{
+
+    text-align: justify;
+    border: 1px;
+    width: fit-content;
+
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.preparo{
+
+    border: 2px;
+    width: 30%;
+    font-size: 16px;
+}
+
+h1{
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+    /* align-items: center;
+    justify-content: center;
+    margin: auto; */
+
