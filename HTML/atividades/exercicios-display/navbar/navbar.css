@@ -1,0 +1,30 @@
+body{
+
+    background-color: antiquewhite;
+}
+
+
+.container{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4px;
+
+    align-items: center;
+    background-color: cadetblue;
+    margin: auto;
+}
+
+img{
+    height: 5%;
+    width: 5%;
+
+    margin-left: 5px;
+}
+
+li{
+
+    list-style: none;
+    margin-right: 30px;
+}
