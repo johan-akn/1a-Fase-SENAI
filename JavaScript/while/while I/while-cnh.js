@@ -5,7 +5,8 @@
 
 
 
-  let numeroMultas, somaPontos, somaMultas
+  let numeroMultas, pontosMulta, valorMulta
+  let somaPontos = 0, somaMultas = 0
   let contadorMultas = 0, mediaRegular = 21
 
 
@@ -13,11 +14,11 @@
 
   while(numeroMultas > contadorMultas){
 
-    somaMultas = Number(prompt('Digite o valor da multa.'))
-    somaPontos = Number(prompt('Digite os pontos perdidos.'))
+    valorMulta = Number(prompt('Digite o valor da multa ' + (contadorMultas + 1) + ':'))
+    pontosMulta = Number(prompt('Digite os pontos da multa ' + (contadorMultas + 1)+ ':'))
 
-    somaMultas += somaMultas
-    somaPontos += somaPontos
+    somaMultas += valorMulta
+    somaPontos += pontosMulta
 
     contadorMultas++
 
