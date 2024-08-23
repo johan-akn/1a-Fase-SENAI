@@ -1,0 +1,6 @@
+se(numeroUm == numeroDois ou numeroUm == numeroTres ou numeroUm == numeroQuatro ou numeroDois == numeroTres ou numeroDois == numeroQuatro ou numeroTres == numeroQuatro){
+
+  escreva("\nVocê digitou números repetidos!\n")
+
+
+}
